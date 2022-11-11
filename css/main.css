@@ -1,0 +1,79 @@
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../macaroni.jpg');
+   width:100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.loginBox{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:420px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+
+}
+h2{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:rgb(0, 225, 255);
+}
+.lbusername,.lbemail,.lbpassword{
+    font-weight:bold;
+    color:#fff;
+
+}
+.txtusername,.txtemail, .txtpassword,.btnsubmit{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.txtusername,.txtemail, .txtpassword{
+    border:none;
+    border-bottom:3px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+}
+::placeholder{
+    color:rgba(255,255,255,.5);
+}
+.btnsubmit{
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:#fff;
+    background-color:rgb(0, 225, 255);;
+    cursor:pointer;
+    border-radius:20px;
+    transition:.3s ease-in-out;
+
+}
+.btnsubmit:hover{
+    background-color:rgb(0, 225, 255);;
+}
+.btnforget,.btnsignup{
+    font-size:16px;
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+}
+.btnforget:hover{
+    text-decoration:underline;
+}
+.btnsignup:hover{
+    text-decoration:underline;
+}
+.btnsignup{
+    padding:25px;
+}
+

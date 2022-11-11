@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  background-color: #E2F5EE52;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section{
+  width: 38%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 2px 8px #3136221A;
+  opacity: 1;
+  border-top: 5px solid #F4841E;
+  border-bottom: 5px solid #F4841E;
+  padding: .5rem 2rem;
+  display: block;
+  justify-content: center;
+  height: auto;
+}
+
+.list-section{
+  padding: .5rem 2rem;
+  width: 48%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 2px 8px #3136221A;
+  border-top: 5px solid #A6CE39;
+  border-bottom: 5px solid #A6CE39;
+  opacity: 1;
+  height:438.44px;
+}
+
+.titles{
+  text-align: center;
+  padding: 1rem 0px;
+}
+
+.form{
+  display: block;
+  justify-content:center;
+}
+
+.input{
+  width: 97%;
+  margin-bottom: 1.5rem;
+  height: 40px;
+  border: 1px solid #00000012;
+  background: #F7F9F6;
+  padding: 0px 0px 0px 10px;
+}
+
+.add-btn{
+  background-color: #F4841E;
+  border: 1px solid #F4841E;
+  padding: .5rem 2rem;
+  color: #FFF;
+  font-weight:700;
+  margin-bottom: 1.5rem;
+}
+
+.list{
+  list-style: none;
+  padding: 0px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.item{
+  border-bottom: 2px solid #A6CE39;
+  padding: .5rem 0px;
+  background: #F7F9F6;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #777777;
+  font-size: 16px;
+  cursor: pointer;
+}
+.more-info{
+    border-top: 1px solid #777777;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.name{
+    margin: .5rem 0;
+}
+
+.remove{
+    padding: 0px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    border: 1px solid rgb(211, 93, 93);
+    border-radius: 4px;
+    background-color: rgb(211, 93, 93);
+    cursor: pointer;
+}
+
+.mark{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
